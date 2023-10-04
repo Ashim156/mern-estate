@@ -3,10 +3,12 @@ import Home from './pages/Home'
 import Signin from './pages/Signin'
 import Signup from './pages/Signup'
 import About from './pages/About'
+import Headers from './components/Headers'
 function App() {
 
   return (
  <>
+ <Headers />
  <Routes>
   <Route path='/' element={<Home/>}/>
   <Route path='/about' ele={<About/>}/>
